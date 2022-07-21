@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container, .counter {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 50%;
+}
+.width-3 {
+    width: 30%;
+    padding: 50px;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 25px;
+    background: linear-gradient(to left, #FC8F49 0%, #FD5231 100%);
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+span{
+    color: #FD4C2F;
+}
+.title{
+    text-align: center;
+}
+h1, h2{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+h2{
+    font-size: 35px;
+}
+
+
+.content-height{
+    margin: 215px 0;
+}
+.content-height p, .about-me p{
+    margin: 35px 0;
+}
+
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-me img {
+    width: 50%;
+    margin: 30% 0 0 15%;
+    display: block;
+}
+
+
+
+.my-recipies{
+    padding: 100px 0;
+}
+.my-recipies .half-width {
+    padding: 25px;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.my-recipies p {
+    margin: 25px 0;
+}
+.my-recipies .half-width h3{
+    font-size: 25px;
+    margin: 25px 0 ;
+}
+
+
+
+.counter {
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 auto;
+    FONT-WEIGHT: 200;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 50px 0;
+}
+footer img{
+    width: 100px;
+}
+footer p{
+    color: #ffffff;
+}
